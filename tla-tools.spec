@@ -1,4 +1,5 @@
-Summary:	tla tools
+Summary:	Helpful utilities for use with tla
+Summary(pl):	Pomocne narzêdzia do u¿ywania z tla
 Name:		tla-tools
 # version - patch number from tla archive
 Version:	0.0.81
@@ -12,7 +13,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-tla tools.
+tla-tools is a package of helpful commands to use with the tla
+program.
+
+%description -l pl
+tla-tools to pakiet pomocnych narzêdzi do u¿ywania z programem tla.
 
 %prep
 %setup -q -n %{name}--devo
