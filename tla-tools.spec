@@ -1,5 +1,5 @@
 Summary:	Helpful utilities for use with tla
-Summary(pl.UTF-8):   Pomocne narzędzia do używania z tla
+Summary(pl.UTF-8):	Pomocne narzędzia do używania z tla
 Name:		tla-tools
 # version - patch number from tla archive
 Version:	0.0.81
